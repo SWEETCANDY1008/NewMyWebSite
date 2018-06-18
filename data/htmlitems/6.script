@@ -1,0 +1,17 @@
+<div id="script">
+  <h2>자바스크립트</h2>
+  <div id="centers">
+    <div id="image">
+      <img src="res/javascript Code.jpg"/>
+      <img src="res/javascript.jpg"/>
+    </div>
+    <div id="inline">
+    <div id="sentence">
+      <p>&lt;script&gt;태그는 HTML문서에 다른 언어를 연결시켜주는 태그이다 기본값은 javascript이다.</p>
+      <p>javascript는 HTML문서를 작성하면서 가장 많이 쓰이게 된다.</P>
+      <p>객체기반의 스크립트 프로그래밍 언어로 자바와 유사하다고 생각하지만 자바와 자바스크립트는 직접적인 관련이 없다.</p>
+      <p>기본적인 문법은 C언어의 기본문법과 유사하다.</p>
+    </div>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div id="explanation">
+  <div id="inline">
+    <h3>HTML요소</h3>
+    <p>HTML 요소(HTML 엘리먼트, HTML element)는 HTML 문서나 웹 페이지를 이루는 개별적인 요소를 의미하며, 문서 객체 모델(DOM)으로 파싱된다.</p>
+    <p>HTML은 트리나 HTML 노드(텍스트 노드 등)로 구성된다. 각 노드는 HTML 속성을 지정할 수 있다.</p>
+    <p>노드들은 기타 노드와 텍스트를 포함한 콘텐츠도 소유할 수 있다. 수많은 HTML 노드들은 시맨틱이나 의미를 표현한다. 이를테면 title 노드는 문서의 제목을 나타낸다.</p>
+  </div>
+</div>

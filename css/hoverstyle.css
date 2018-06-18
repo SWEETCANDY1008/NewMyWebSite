@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Jua|Do+Hyeon|Poor+Story&subset=korean');
+
+/* font-family: 'Gothic A1', sans-serif; */
+/* font-family: 'Jua', sans-serif; */
+/* font-family: 'Poor Story', cursive; */
+/* font-family: 'Do Hyeon', sans-serif; */
+
+#One, #Two, #Three, #Four, #five, #six {
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor:default;
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(130,153,191,0.7);
+  border-radius: 0;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(130,153,191,0.5), rgba(86,102,127,0.8), rgba(173,204,255,0.3), rgba(43,51,64,0.7), rgba(155,183,229,0.5));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  border: none;
+  border: 5px inset rgba(86,102,127,0.8);
+  margin: 20px;
+
+}
+
+#One span, #Two span, #Three span, #Four span, #five span, #six span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 400px;
+  height: 360px;
+  font-family: 'Poor Story', cursive;
+}
+
+#One a, #Two a, #Three a, #Four a, #five a, #six a {
+  color: #B29353;
+}
+
+#One:hover, #Two:hover, #Three:hover, #Four:hover, #five:hover, #six:hover {
+  background-color: rgba(130,153,191,0.8)
+  border: 1px solid rgba(130,153,191,0);
+  background-position: 100% 100%;
+  font-size: 40px;
+}
+
+#One:hover {
+  background-image: url("../res/html.jpg");
+  background-size: 100% 100%;
+}
+
+#Two:hover {
+  background-image: url("../res/html book.jpg");
+  background-size: 100% 100%;
+}
+
+#Three:hover {
+  background-image: url("../res/Java.jpg");
+  background-size: 100% 100%;
+}
+
+#Four:hover {
+  background-image: url("../res/notebook.jpg");
+  background-size: 100% 100%;
+}
+
+#five:hover {
+  background-image: url("../res/use.jpg");
+  background-size: 100% 100%;
+}
+
+#six:hover {
+  background-image: url("../res/Source.jpg");
+  background-size: 100% 100%;
+}
+
+#One span:hover, #Two span:hover, #Three span:hover, #Four span:hover, #five span:hover, #six span:hover {
+  font-family: 'Jua', sans-serif;
+  color: #FFF773;
+  text-shadow: 0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 30px #fff,
+                0 0 40px #ff00de,
+                0 0 70px #ff00de,
+                0 0 80px #ff00de,
+                0 0 100px #ff00de,
+                0 0 150px #ff00de;
+}
+/* , #Two:hover, #Three:hover, #Four:hover, #five:hover, #six:hover */

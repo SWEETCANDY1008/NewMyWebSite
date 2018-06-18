@@ -1,0 +1,17 @@
+<div id="explanation">
+  <div id="inline">
+    <h3>구조적 문서</h3>
+    <p>구조적 문서는 계급처럼 어떠한 요소 아래 요소가 있고, 또 그 요소 아래 요소가 있는 문서를 말한다.</p>
+    <p>예를 들어, HTML의 경우.</p>
+    <p>&lt;html&gt;</p>
+    <p>&lt;head&gt;</p>
+    <p>&lt;title&gt;Hello World&lt;/title&gt;</p>
+    <p>&lt;/head&gt;</p>
+    <p>&lt;body&gt;</p>
+    <p>&lt;div&gt;Hello World&lt;/div&gt;</p>
+    <p>&lt;/body&gt;</p>
+    <p>&lt;/html&gt;</p>
+
+    <p>이처럼 HTML 아래 Head, Head 아래 Title 같이 되어 있다.</p>
+  </div>
+</div>

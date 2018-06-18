@@ -1,0 +1,17 @@
+#centers {
+  display: inline;
+}
+
+#image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#image img {
+  width: 400px;
+  height: 400px;
+}
+
+#sentence {
+  margin-left: 30px;
+}

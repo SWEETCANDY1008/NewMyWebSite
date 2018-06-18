@@ -1,0 +1,18 @@
+<div id="spacing">
+  <h2>줄바꿈</h2>
+  <div id="centers">
+    <div id="image">
+      <img src="res/spacing Code.jpg"/>
+      <img src="res/spacing.jpg"/>
+    </div>
+    <div id="inline">
+    <div id="sentence">
+      <p>HTML은 글을 작성시 기본적으로 띄어쓰기가 지원되지 않는다. 그래서 띄어쓰기 태그를 사용해 주어야 한다.</p>
+      <p>&lt;p&gt;태그와 &lt;br&gt;태그가 사용이 된다.</P>
+      <p>&lt;p&gt;태그로 감싸여지게 되면 하나의 문단으로 인식하여 다음문단으로 띄어쓰기가 된다.</p>
+      <p>&lt;br&gt;태그는 단순하게 한줄 띄어쓰게 된다.</p>
+      <p>&lt;p&gt;태그와 &lt;br&gt; 중 가장 많이 쓰이는 태그는 &lt;p&gt;태그이다 </p>
+    </div>
+  </div>
+  </div>
+</div>

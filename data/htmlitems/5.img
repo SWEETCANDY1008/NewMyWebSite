@@ -1,0 +1,16 @@
+<div id="img">
+  <h2>이미지넣기</h2>
+  <div id="centers">
+    <div id="image">
+      <img src="res/image Code.jpg"/>
+      <img src="res/image capture.jpg"/>
+    </div>
+    <div id="inline">
+    <div id="sentence">
+      <p>웹 페이지 내에 이미지를 삽입하고 싶은 경우 &lt;img&gt;태그를 사용하면 된다.</p>
+      <p>src속성으로 경로를 지정해 주어야 한다.</p>
+      <p>width, height속성으로 사진의 크기를 정해줄 수 있다.</p>
+    </div>
+    </div>
+  </div>
+</div>

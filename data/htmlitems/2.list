@@ -1,0 +1,17 @@
+<div id="list">
+  <h2>항목</h2>
+  <div id="centers">
+    <div id="image">
+      <img src="res/list Code.jpg"/>
+      <img src="res/list.jpg"/>
+    </div>
+    <div id="inline">
+    <div id="sentence">
+      <p>항목들을 나열할때 사용할 수 있다.</p>
+      <p>&lt;ul&gt;태그와 &lt;ol&gt;태그안에 &lt;li&gt;태그가 들어가게 된다.</P>
+      <p>&lt;ul&gt;태그와 &lt;ol&gt;태그의 차이는 항목을 숫자로 나타나게 하냐 점으로 나타나게 하냐의 차이가 있다.</p>
+      <p>CSS의 <strong>display:inline;</strong> 속성을 통해 일렬로 나열할 수 있다.</p>
+    </div>
+  </div>
+  </div>
+</div>

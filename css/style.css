@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Jua|Do+Hyeon|Poor+Story&subset=korean');
+
+/* html {
+  background: url("../res/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+body {
+  background: url("../res/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  /* font-family: 'Gothic A1', sans-serif; */
+  /* font-family: 'Jua', sans-serif; */
+  /* font-family: 'Poor Story', cursive; */
+  /* font-family: 'Do Hyeon', sans-serif; */
+}
+
+#all h1 {
+  display: block;
+  font-size: 30px;
+  text-align: left;
+  margin: 0;
+  padding:10px;
+}
+
+#all a {
+  color: #FF7674;
+  text-decoration:none;
+}
+
+#all a:hover {
+  color:#D4F4FA;
+  border-bottom:3px solid #FAED7D;
+}
+
+#introduction h2, #History h2, #MarkUp h2, #CSS h2, #JavaScript h2, #html h2, #h h2, #list h2, #spacing h2, #div h2, #img h2, #script h2, #Sources h2, #Use h2 {
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-size: 45px;
+  padding: 25px;
+  color: #FFC600;
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: lighter;
+}
+
+#div h3, #History h3 {
+  margin: 0px;
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+}
+
+#menu {
+  float: right;
+}
+
+#all {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0px 0px 0px rgba(0,0,0,.3);
+  -moz-box-shadow: 0px 0px 0px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.3);
+  -o-box-shadow: 0px 0px 0px rgba(0,0,0,.3);
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  /* background-color:#AAFFAC; */
+  background-color: rgba(101,122,255,0.5);
+  top: 0;
+}
+
+#List {
+  float: right;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  padding: 0;
+}
+
+#item2 li {
+  font-size: 15px;
+  margin: 10px;
+}
+
+#List ul {
+  margin: inherit;
+}
+
+#List ul li {
+	float:left;
+	list-style-type:none;
+}
+
+#List a {
+	height:16px;
+	color:#FF7674;
+	font-family:arial;
+	font-size:15px;
+	padding:0 10px 0 10px;
+	text-decoration:none;
+  margin: 10px;
+  font-weight: bold;
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: lighter;
+
+}
+
+#List a:hover {
+	color:#D4F4FA;
+	border-bottom:3px solid #FAED7D;
+}
+
+#List ul ul {
+	display:none;
+	position:absolute;
+	background-color:#5c5c5c;
+}
+
+#List ul li:hover ul {
+	display: block;
+
+}
+
+#List ul ul li {
+	float:none;
+}
+
+#introductions {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#html {
+  grid-template-columns: 1fr 2fr;
+}
+
+#maintext {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 400px;
+}
+
+#maintext a {
+  text-decoration:none;
+  color: white;
+}
+
+#Sources p {
+  text-align: center;
+  font-size: 15px;
+}
+
+#Sources a {
+  color: black;
+}
+
+#Sources a:hover {
+  font-weight: bold;
+  color: red;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.inner h1 {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding:10px;
+  text-decoration:none;
+}
+
+.inner h2 {
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.inner h3 {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.inner p {
+  font-size: 15px;
+}
+
+#inputtext {
+  margin-top: 30px;
+  resize: vertical;
+  height:400px;
+  width:100%;
+  background-color: rgba(195,218,255,0.5);
+  font-family: 'Jua', sans-serif;
+  font-size: 30px;
+}
+
+#MainSentence {
+  margin-right: 20px;
+}
+
+#explanation {
+  margin: 20px;
+  padding: 50px;
+  border: 3px solid skyblue;
+}
+
+#inline {
+  padding:20px;
+  margin-bottom: 100px;
+  font-family: 'Jua', sans-serif;
+  font-weight: lighter;
+  background-color: rgba(232, 255, 214, 0.7);
+}
+
+#inline a {
+  text-decoration: none;
+  color: red;
+}
+
+#inline a:hover {
+  color: #FFC600;
+}
+
+#search {
+  display: none;
+  position: absolute;
+  z-index: 200;
+  background-color: #A3FF8C;
+  margin: 10px;
+  width: 75%;
+  height: 10%;
+  text-align: center;
+  padding: 10px;
+}
+
+#serching {
+  text-align: right;
+}
+
+#searchingsite {
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #006fff;
+  border: 1px solid #006fff;
+  border-radius: 3px;
+}
+
+.searchform {
+  width: 400px;
+}
+
+#searchtext {
+  width: 500px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #006fff;
+  border: 1px solid #006fff;
+  border-radius: 3px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(170,255,172,0.5);
+  padding: 10px;
+  font-size:10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color:red;
+}
+
+#many_button p {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#many_button p button {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+}
+
+#Use #start p button {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 30px;
+}
+
+#Sources #inline {
+  padding:20px;
+  margin-bottom: 100px;
+  font-family: 'Jua', sans-serif;
+  font-weight: lighter;
+  background-color: rgba(232, 255, 214, 1);
+  font-size: 25px;
+}
+
+#Sources #inline a {
+  text-decoration: none;
+  color: red;
+  font-size: 25px;
+}
+
+#Sources #inline a:hover {
+  color: #FFC600;
+}

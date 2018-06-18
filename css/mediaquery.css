@@ -1,0 +1,7 @@
+@media(max-width:800px) {
+  #maintext {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,30 @@
+<div id="Use">
+  <h2>활용해보기</h2>
+  <textarea id="inputtext" name="name" rows="8" cols="200" placeholder="안녕하세요 간단한 HTML 코드를 입력해 주세요!!"></textarea>
+  <div style="display:grid; grid-template-columns:2fr 1fr;">
+    <div id="many_button">
+      <p>버튼을 누르면 해당 태그가 나옵니다!</p>
+      <p>
+        <button type="button" class="myButton" name="button" onclick="inputs('h1'); return false;">h1</button>
+        <button type="button" class="myButton" name="button" onclick="inputs('ul'); return false;">ul</button>
+        <button type="button" class="myButton" name="button" onclick="inputs('ol'); return false;">ol</button>
+        <button type="button" class="myButton" name="button" onclick="inputs('p'); return false;">p</button>
+        <button type="button" class="myButton" name="button" onclick="inputs('br'); return false;">br</button>
+        <button type="button" class="myButton" name="button" onclick="inputs('div'); return false;">div</button>
+        <button type="button" class="myButton" name="button" onclick="inputs('script'); return false;">script</button>
+      </p>
+    </div>
+    <div id="start" style="text-align:right;">
+      <p>
+        <button type="button" class="myButton" name="button" onclick="outputs(); return false;" style="width:200px; height:100px;">출력</button>
+      </p>
+    </div>
+  </div>
+  <br>
+  <p>
+  <!-- html코드를 입력받으면 출력하는 부분. -->
+  <div id="inline">
+  <div class="inner">출력결과가 이곳에 나옵니다!</div>
+  </div>
+  </p>
+</div>

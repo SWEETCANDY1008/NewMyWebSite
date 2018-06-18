@@ -1,0 +1,16 @@
+<div id="html">
+  <h2>HTML의 틀</h2>
+  <div id="centers">
+    <div id="image">
+      <img src="res/html.jpg"/>
+    </div>
+    <div id="inline">
+    <div id="sentence">
+      <p>&lt;html&gt;과 &lt;/html&gt;사이의 문자는 웹 페이지를 표현한다.</p>
+      <p>&lt;body&gt;와 &lt;body&gt;사이의 문자는 보여지는 페이지 내용이며, </p>
+      <p>&lt;head&gt;와 &lt;/head&gt;사이의 문자는 눈에는 보이지 않지만 웹 페이지를 표현하기위해 필요한 해더 정보를 담고 있다.</p>
+      <p>&lt;title&gt;과 &lt;/title&gt;사이의 문자는 웹 브라우저의 페이지 제목을 정의하는데 사용된다.</p>
+    </div>
+  </div>
+  </div>
+</div>
